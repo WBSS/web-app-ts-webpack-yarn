@@ -1,0 +1,27 @@
+{
+  "name": "web-app-ts-webpack-yarn",
+  "version": "1.0.0",
+  "description": "test ts-webpack setup",
+  "main": "index.js",
+  "author": "Urs Kehrli WBSS GmbH",
+  "license": "MIT",
+  "scripts": {
+    "start:server": "webpack-dev-server --config webpack.dev.js",
+    "build:prod": "webpack --config webpack.prod.js",
+    "start:tsc": "node_modules/typescript/bin/tsc",
+    "tslint": "tslint -c tslint.json 'src/**/*.ts'",
+    "tslint:init": "tslint --init"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "copy-webpack-plugin": "^4.4.1",
+    "ts-loader": "^3.5.0",
+    "tslint": "^5.9.1",
+    "tslint-webpack-plugin": "^1.1.1",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  }
+}
