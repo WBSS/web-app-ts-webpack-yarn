@@ -9,7 +9,7 @@
     "tsc": "node_modules/typescript/bin/tsc",
     "tslint": "tslint -c tslint.json 'src/**/*.ts'",
     "dev": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpackrun"
   },
   "dependencies": {},
   "devDependencies": {
