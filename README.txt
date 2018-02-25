@@ -1,5 +1,5 @@
 # Build app with ts+webpack+yarn
-[uk] 2018
+[uk] 2018 / test atomist setup in slack
 
 1. Clone project from git
 2. Install node (8.x.x)
